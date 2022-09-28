@@ -3,7 +3,7 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="content">
+<div class="px-1 content">
 	<h1>About this app</h1>
 
 	<p>
