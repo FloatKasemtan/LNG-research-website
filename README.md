@@ -23,7 +23,6 @@ npm run dev -- --open
 - ErrorLens (Recommended)
 - TabNine (Recommended)
 - Better Comments (Need)
-- ES& React/Redux/Graphql (Need)
 - Eslint (Need)
 - Prettier (Need)
 
