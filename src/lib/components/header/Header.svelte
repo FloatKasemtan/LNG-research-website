@@ -47,7 +47,12 @@
 			</li>
 		{/each}
 	</ul>
-	<a class="p-4 font-semibold text-gray-500" href="https://devsirawit.com">Contact us</a>
+	<a
+		target="_blank"
+		rel="external"
+		class="p-4 font-semibold text-gray-500"
+		href="https://github.com/FloatKasemtan/LNG-research-website/issues">Contact us</a
+	>
 </header>
 
 <style>
