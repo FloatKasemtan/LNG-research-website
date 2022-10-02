@@ -9,6 +9,7 @@
 	import BigBrain from '../../assets/big-brain.png';
 	import { onMount } from 'svelte';
 	import Container from '$lib/components/Container.svelte';
+	import { goto } from '$app/navigation';
 
 	let isHovered = false;
 	let isReady = false;
@@ -166,7 +167,7 @@
 			style="transition: background .25s ease-in-out, border .25s ease-in-out;"
 			class="flex flex-col items-center justify-center p-2 px-6 pt-4 mb-2 text-sm rounded "
 		>
-			<b>CLICK FOR SCROLLING DOWN</b>
+			<a href="#landing-content" class="font-bold z-50">CLICK TO SCROLLING DOWN</a>
 			<div class="icon">
 				<IoIosArrowDown />
 			</div>

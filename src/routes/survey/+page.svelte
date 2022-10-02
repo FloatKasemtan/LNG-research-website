@@ -19,7 +19,7 @@
 		</div>
 		<div class="my-10 flex items-center">
 			<div class="flex-1 text-5xl font-extrabold">
-				<p><span class="text-pink-500"> Who </span> has responeded out survey?</p>
+				<p><span class="text-pink-500"> Our </span> respondents</p>
 			</div>
 			<div class="flex flex-1 p-3">
 				<p class="text-left text-xl">
@@ -29,8 +29,8 @@
 				</p>
 			</div>
 		</div>
-		<div class="my-10 flex flex-col text-center">
-			<p class="text-4xl font-extrabold">How long have they been in the programming field?</p>
+		<div id="1" class="my-10 flex flex-col text-center">
+			<p class="text-4xl font-extrabold  text-right">Respondents time spent coding</p>
 			<p class="my-5 text-justify indent-10 text-xl">
 				Our responses show that <b>58.6%</b> of the respondents have been in the programming field
 				for 1-3 years. Another two groups of responses, which are the people who have been in
@@ -39,8 +39,8 @@
 				programming with less than 1 years of experience, have a total of <b>6.9%</b> of overall responses.
 			</p>
 		</div>
-		<div class="flex flex-col text-center ">
-			<p class="text-4xl font-extrabold">Have they ever used any AI software that helps coding?</p>
+		<div id="2" class="flex flex-col text-center ">
+			<p class="text-4xl font-extrabold text-left">AI software usage</p>
 			<p class="my-5 text-justify indent-10 text-xl">
 				From our responses, <b>51.7%</b> of respondents that have used AI Software help them code.
 				And for <b>48.3%</b> that haven’t used AI Software. That means almost a half of the respondents
@@ -50,9 +50,9 @@
 				on their own which will make their skills become better and better.
 			</p>
 		</div>
-		<div class="my-20 flex items-center">
+		<div id="3" class="my-20 flex items-center">
 			<div class="flex-1 text-5xl font-extrabold">
-				<p>What AI software have they used before?</p>
+				<p>Software respondents used</p>
 			</div>
 			<div class="flex flex-1 p-3">
 				<p class="text-left text-xl">
@@ -63,8 +63,8 @@
 				</p>
 			</div>
 		</div>
-		<div class="my-10 flex flex-col text-center">
-			<p class="text-4xl font-extrabold">How long have they been using AI in coding?</p>
+		<div id="4" class="my-10 flex flex-col text-center">
+			<p class="text-4xl font-extrabold">Duration of respondents using AI software</p>
 			<p class="my-5 text-justify indent-10 text-xl">
 				From our responses, <b>40%</b> of respondents have been using AI in coding for 1- 6 months,
 				AI in coding began to be more and more since Github Copilot has been released, other
@@ -74,8 +74,8 @@
 				time, but mostly people just started using it less than 6 months.
 			</p>
 		</div>
-		<div class="my-10 flex flex-col text-center">
-			<p class="text-4xl font-extrabold">How much they AI enhance your work?</p>
+		<div id="5" class="my-10 flex flex-col text-center">
+			<p class="text-4xl font-extrabold">AI Enhancement in programming</p>
 			<p class="my-5 text-justify indent-10 text-xl">
 				From the bar chart from our responses, <b>86.7%</b> of the respondents voted that AI really
 				enhance their work, and enhance their productivity after they use AI with programming work
@@ -83,10 +83,7 @@
 				<b>13.4%</b> of the respondents voted that they satisfied with AI but unsure to use it seriously
 				on their work.
 			</p>
-		</div>
-		<div class="my-10 flex flex-col text-center">
-			<p class="text-4xl font-extrabold">Reason why do they think it is helpful, or not</p>
-			<p class="my-5 text-justify indent-10 text-xl">
+			<p class="mb-5 text-justify indent-10 text-xl">
 				Most people answer in positive terms, but there are some negative comments as well. This
 				showed that it could not be necessarily for everyone using AI in coding. Respondent answered
 				that he is working in the backend field and the AI will mostly give wrong suggestions. His
@@ -97,8 +94,10 @@
 				with coders themselves.
 			</p>
 		</div>
-		<div class="my-10 flex flex-col text-center">
-			<p class="text-4xl font-extrabold">Do they still want to continue using it?</p>
+		<div id="6" class="my-10 flex flex-col text-center">
+			<p class="text-4xl font-extrabold">
+				Do respondents still want to continue using AI software?
+			</p>
 			<p class="my-5 text-justify indent-10 text-xl">
 				From the data that we collect, there are <b>60%</b> of people will continue using AI to help
 				in coding, <b>26.7%</b> are not sure whether they will continue using it or not, and the rest
