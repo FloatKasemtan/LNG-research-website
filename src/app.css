@@ -585,3 +585,8 @@ html {
 .build-in-animate .particle-circle-green-2 {
 	animation-play-state: running;
 }
+
+.icon {
+	width: 32px;
+	height: 32px;
+}
