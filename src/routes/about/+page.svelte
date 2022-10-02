@@ -1,6 +1,4 @@
 <script>
-	// @ts-nocheck
-
 	import svg from '../../assets/undraw_online_articles_re_yrkj.svg';
 </script>
 
