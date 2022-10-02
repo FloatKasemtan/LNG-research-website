@@ -93,7 +93,7 @@
 
 <main class="relative flex justify-center">
 	<div class="fadeIn showbg {isReady && 'bg-ready'}" />
-	<div class="flex-col gap-4 px-10 z-50 flex justify-center">
+	<div class="z-50 flex flex-col justify-center gap-4 px-10">
 		<h1
 			class="opacity-zero slideIn font-extrabold text-8xl {!isChangedTheme
 				? 'text-white'
@@ -138,7 +138,7 @@
 		</div>
 	</div>
 	<div
-		class="h-full w-full flex items-center justify-center relative section-actions-hero animate-actions-hero"
+		class="relative flex items-center justify-center w-full h-full section-actions-hero animate-actions-hero"
 	>
 		<div
 			class="w-full relative h-full z-10 {allDone
@@ -154,17 +154,17 @@
 		<Automate show={!allDone} />
 	</div>
 	<!-- <div
-		class=" absolute"
+		class="absolute "
 		style="transform-origin: 50% 50%; left: {x - width / 2}px; top: {y -
 			width /
 				2}px; backdrop-filter: blur(8px); transform: scale({scale}); background: rgba(0,0,0,.1); width: {width}px; height: {width}px; border-radius: 50%; transition: transform .25s ease-in-out;"
 	/> -->
 
-	<div class="absolute left-0 right-0 bottom-0 flex justify-center align-center">
+	<div class="absolute bottom-0 left-0 right-0 flex justify-center align-center">
 		<a
 			href="#about"
 			style="transition: background .25s ease-in-out, border .25s ease-in-out;"
-			class="text-sm flex flex-col justify-center items-center p-2  mb-2 px-6 rounded pt-4 "
+			class="flex flex-col items-center justify-center p-2 px-6 pt-4 mb-2 text-sm rounded "
 		>
 			<b>CLICK FOR SCROLLING DOWN</b>
 			<div class="icon">
@@ -179,10 +179,6 @@
 </Container>
 
 <style>
-	.icon {
-		width: 32px;
-		height: 32px;
-	}
 	.text-ready1 {
 		margin-left: 9rem;
 	}
