@@ -38,6 +38,7 @@
 		"@sveltejs/adapter-static": "^1.0.0-next.43",
 		"svelte-icons": "^2.1.0",
 		"svelte-particles": "^2.3.2",
-		"tsparticles": "^2.3.2"
+		"tsparticles": "^2.3.2",
+		"svelte-chartjs": "^3.0.1"
 	}
 }
