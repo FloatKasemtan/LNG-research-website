@@ -8,6 +8,7 @@
 	import Automate from './Automate.svelte';
 	import BigBrain from '../../assets/big-brain.png';
 	import { onMount } from 'svelte';
+	import Container from '$lib/components/Container.svelte';
 
 	let isHovered = false;
 	let isReady = false;
@@ -173,7 +174,9 @@
 	</div>
 </main>
 
-<Sections />
+<Container>
+	<Sections />
+</Container>
 
 <style>
 	.icon {
