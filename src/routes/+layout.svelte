@@ -1,10 +1,13 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
+	import Footer from '$lib/components/footer/Footer.svelte';
+	import Header from '$lib/components/header/Header.svelte';
 	import '../app.css';
 </script>
 
 <Header />
 
-<main>
+<main style="min-height: calc(100vh - 8.5rem)">
 	<slot />
 </main>
+
+<Footer />

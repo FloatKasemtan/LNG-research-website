@@ -7,6 +7,7 @@
 	import IoIosArrowForward from 'svelte-icons/io/IoIosArrowForward.svelte';
 	import Automate from './Automate.svelte';
 	import BigBrain from '../../assets/big-brain.png';
+	import { onMount } from 'svelte';
 
 	let isHovered = false;
 	let isReady = false;
@@ -75,11 +76,13 @@
 		y = e.clientY;
 	}
 
-	window.addEventListener('mousemove', onMouseMove);
+	onMount(async () => {
+		// window.addEventListener('mousemove', onMouseMove);
+	});
 
-	onDestroy(() => {
+	onDestroy(async () => {
 		clearInterval(timer);
-		window.removeEventListener('mousemove', onMouseMove);
+		// window.removeEventListener('mousemove', onMouseMove);
 	});
 </script>
 
