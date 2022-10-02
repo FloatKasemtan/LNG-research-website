@@ -590,3 +590,38 @@ html {
 	width: 32px;
 	height: 32px;
 }
+
+@media screen and (min-width: 550px) {
+	::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+		border-radius: 3px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: transparent;
+		border-radius: 3px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: #dee3e8;
+		border-radius: 15px;
+		border: 2px solid transparent;
+		background-clip: padding-box;
+	}
+
+	::-webkit-scrollbar-thumb:hover,
+	::-webkit-scrollbar-thumb:active {
+		background-color: #a9b4bc;
+	}
+
+	html {
+		scrollbar-color: #dee3e8 transparent;
+		scrollbar-width: thin;
+		scroll-behavior: smooth;
+	}
+
+	html * {
+		scrollbar-width: inherit;
+	}
+}

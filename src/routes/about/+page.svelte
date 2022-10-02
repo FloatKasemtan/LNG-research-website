@@ -49,8 +49,8 @@
 					href="
 				https://www.nytimes.com/2021/09/09/technology/codex-artificial-intelligence-coding.html"
 					>Metz, C. (2021, September 10). A.I. Can Now Write Its Own Computer Code. That’s Good News
-					for Humans. The New York Times.</a
-				>
+					for Humans. The New York Times.
+				</a>
 			</li>
 			<li class="m-2">
 				3.

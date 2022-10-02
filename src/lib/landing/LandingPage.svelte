@@ -26,9 +26,9 @@
 	let scale = 1;
 	let speed = 0;
 
-	let debouncer;
+	let debouncer: any;
 
-	const debounce = (v) => {
+	const debounce = (v: number) => {
 		clearTimeout(debouncer);
 		debouncer = setTimeout(() => {
 			scale = v;
