@@ -36,9 +36,10 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"@sveltejs/adapter-static": "^1.0.0-next.43",
+		"chart.js": "^3.9.1",
+		"svelte-chartjs": "^3.0.1",
 		"svelte-icons": "^2.1.0",
 		"svelte-particles": "^2.3.2",
-		"tsparticles": "^2.3.2",
-		"svelte-chartjs": "^3.0.1"
+		"tsparticles": "^2.3.2"
 	}
 }
