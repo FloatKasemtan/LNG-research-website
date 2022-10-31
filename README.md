@@ -25,6 +25,7 @@ npm run dev -- --open
 - Better Comments (Need)
 - Eslint (Need)
 - Prettier (Need)
+- Vscode-pet (Highly Recommended)
 
 ## Building
 
