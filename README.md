@@ -26,6 +26,7 @@ npm run dev -- --open
 - Eslint (Need)
 - Prettier (Need)
 - Vscode-pet (Highly Recommended)
+- Emojisense (Recommended)
 
 ## Building
 
